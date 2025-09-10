@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goic Group Gamblers Advice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    .section {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 10px 0;
+      border-radius: 4px;
+    }
+    pre {
+      background: #272822;
+      color: #f8f8f2;
+      padding: 15px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-size: 14px;
+    }
+    .denied {
+      text-align: center;
+      margin-top: 100px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Goic Group Gamblers (GGG) Private Advice Hub</h1>
+  <p>This is a private website containing all the advice provided for your sports betting business idea. Access is password-protected.</p>
+
+  <div class="section">
+    <h2>Logos – Initial Versions</h2>
+    <p>These logos incorporate gambling themes like blackjack cards, with a luxury feel using gold and green colors.</p>
+    <img src="https://via.placeholder.com/600x400?text=GGG+Logo+Version+1A" alt="GGG Logo 1A">
+    <img src="https://via.placeholder.com/600x400?text=GGG+Logo+Version+1B" alt="GGG Logo 1B">
+  </div>
+
+  <div class="section">
+    <h2>Logos – Sports Betting Focus</h2>
+    <p>These logos focus more on sports betting themes, with elements like betting boards and cards.</p>
+    <img src="https://via.placeholder.com/600x400?text=GGG+Logo+Version+2A" alt="GGG Logo 2A">
+    <img src="https://via.placeholder.com/600x400?text=GGG+Logo+Version+2B" alt="GGG Logo 2B">
+  </div>
+
+  <div class="section">
+    <h2>Business Model and Advice</h2>
+    <pre>
+### Goic Group Gamblers (GGG): Sports Betting Advisory Service
+
+**Core Concept**  
+A premium advisory service that provides expert, data-driven betting insights.  
+Focus on responsible gambling, community building, and long-term profitability.
+
+**Services**  
+- Daily & weekly picks with breakdowns  
+- Bankroll & risk management education  
+- Private member forums & live Q&A  
+- Premium tools (calculators, dashboards)  
+- Personalized consulting for high-rollers  
+
+**Revenue Streams**  
+- Subscriptions (main income source)  
+- Pay-per-pick options  
+- Affiliate deals with sportsbooks  
+- Branded merch and e-books  
+- Advertising (long-term)  
+
+**Branding & Marketing**  
+- Luxury style: gold, green, and black  
+- Elite “insider club” positioning  
+- Content marketing (blogs, podcasts, SEO)  
+- Social media campaigns with influencers  
+- Email & SMS for customer retention  
+
+**Growth Strategy**  
+- Start lean with subscriptions  
+- Bootstrap, then scale via friends/family funding  
+- Approach sports-focused VCs once proven  
+- Compliance first: responsible gambling disclaimers  
+
+Slogan: *“Bet Elite, Win Supreme.”*  
+    </pre>
+  </div>
+
+  <script>
+    // Simple password gate
+    const password = prompt("Enter password to access:");
+    if (password !== "ggg123") {
+      document.body.innerHTML = `
+        <div class="denied">
+          <h1>Access Denied</h1>
+          <p>Incorrect password. Please reload to try again.</p>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>
